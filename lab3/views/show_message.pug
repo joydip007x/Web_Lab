@@ -1,0 +1,13 @@
+html
+html
+   head
+      title Movie Search 
+   body
+      if(type == "error")
+         h3(style = "color:red") #{message}
+      else
+         h3 Searched Movie Details
+         h4    name: #{getPerName()}   
+         h4    year:  #{getAge()}  
+         h4    director : #{getNatName()}
+         h4    genre : #{getGenName()}
